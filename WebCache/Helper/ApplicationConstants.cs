@@ -2,6 +2,6 @@
 {
     public static class ApplicationConstants
     {
-        public const string RedisConnectionString = "REDIS_CONNECTIONSTRING";
+        public const string RedisConnectionString = "RedisSettings:Configuration";
     }
 }

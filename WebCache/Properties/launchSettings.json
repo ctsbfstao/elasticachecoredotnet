@@ -12,7 +12,7 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "REDIS_CONNECTIONSTRING": "localhost",
+        "REDIS_CONNECTIONSTRING": "rediscache.ydpiqx.0001.usw2.cache.amazonaws.com:6379",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
