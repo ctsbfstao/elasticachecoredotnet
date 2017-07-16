@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model IEnumerable<WebCache.Models.ProductItem>
+
+<h2>Products Management</h2>
+<h4>Time to load the data: @TempData["DataLoadTime"]ms</h4>
+<h4>From where is loaded: @TempData["DataLoadType"]</h4>
+<h4>Cache invalidates in: <span id="timerSpan" class="alert-info"></span> seconds</h4>
+
+<table  class="bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Id
+                </td>
+                <td>
+                    @Html.Raw(item.Name)
+                </td>
+                <td>
+                    @Html.Raw(item.Description)
+                </td>
+                <td>
+                    <img src="@item.Image" style="margin: 2px; width: 50px;" />
+                </td>
+                <td>
+                    $@Html.Raw(item.Price)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "Leaf Rake",
+    "description": "Leaf rake with 48-inch wooden handle.",
+    "price": 19.95,
+    "image": "http://openclipart.org/image/300px/svg_to_png/26215/Anonymous_Leaf_Rake.png"
+  },
+  {
+    "id": 2,
+    "name": "Garden Cart",
+    "description": "15 gallon capacity rolling garden cart",
+    "price": 32.99,
+    "image": "http://openclipart.org/image/300px/svg_to_png/58471/garden_cart.png"
+  },
+  {
+    "id": 3,
+    "name": "Hammer",
+    "description": "Curved claw steel hammer",
+    "price": 8.9,
+    "image": "http://openclipart.org/image/300px/svg_to_png/73/rejon_Hammer.png"
+  },
+  {
+    "id": 4,
+    "name": "Saw",
+    "description": "15-inch steel blade hand saw",
+    "price": 11.55,
+    "image": "http://openclipart.org/image/300px/svg_to_png/27070/egore911_saw.png"
+  },
+  {
+    "id": 5,
+    "name": "Video Game Controller",
+    "description": "Standard two-button video game controller",
+    "price": 35.95,
+    "image": "http://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
+  },
+  {
+    "id": 6,
+    "name": "Toddler Shoe",
+    "description": "Gray sports shoe for a toddler girl 5-7 yrs of age",
+    "price": 25.75,
+    "image": "https://openclipart.org/image/2400px/svg_to_png/283070/Re-Shoe-Clipart-2-2017070837-remix.png"
+  },
+  {
+    "id": 7,
+    "name": "Alarm Clock",
+    "description": "Smart alarm clock supporting Bluetooth 4.0",
+    "price": 55.80,
+    "image": "https://openclipart.org/image/2400px/svg_to_png/213494/Alarm-clock.png"
+  },
+  {
+    "id": 8,
+    "name": "Personal Drone",
+    "description": "Drone to follow you wherever you go",
+    "price": 255.80,
+    "image": "https://openclipart.org/image/2400px/svg_to_png/267123/1479828018.png"
+  },
+  {
+    "id": 9,
+    "name": "Simple stylish stool",
+    "description": "Wooden legs made with Mahagony wood",
+    "price": 25.50,
+    "image": "https://openclipart.org/image/2400px/svg_to_png/282844/GlitchSimplifiedNiceStool.png"
+  },
+  {
+    "id": 10,
+    "name": "Smart bulb",
+    "description": "Connected Bulb that can be controlled from a mobile app",
+    "price": 25.50,
+    "image": "https://openclipart.org/image/2400px/svg_to_png/282978/Abstract-Light-Bulb-Silhouette.png"
+  }
+
+]
